@@ -9,14 +9,13 @@
 		"block",
 		"scaffold"
 	],
-	"homepage": "https://github.com/WordPress/gutenberg/tree/master/packages/create-block/README.md",
+	"homepage": "https://github.com/donmhico/wds-create-block",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WordPress/gutenberg.git",
-		"directory": "packages/create-block"
+		"url": "https://github.com/donmhico/wds-create-block"
 	},
 	"bugs": {
-		"url": "https://github.com/WordPress/gutenberg/issues"
+		"url": "https://github.com/donmhico/wds-create-block"
 	},
 	"engines": {
 		"node": ">=10",
