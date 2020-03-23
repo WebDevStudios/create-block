@@ -1,5 +1,5 @@
 {
-	"name": "@donmhico/create-block",
+	"name": "@webdevstudios/create-block",
 	"version": "0.0.2",
 	"description": "Generates PHP, JS and CSS code for registering a block for a WordPress plugin.",
 	"author": "Michael Joseph Panaga <michael.panaga@webdevstudios.com> (https://twitter.com/_micmico)",
@@ -9,13 +9,13 @@
 		"block",
 		"scaffold"
 	],
-	"homepage": "https://github.com/donmhico/create-block",
+	"homepage": "https://github.com/WebDevStudios/create-block/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/donmhico/create-block"
+		"url": "https://github.com/WebDevStudios/create-block/"
 	},
 	"bugs": {
-		"url": "https://github.com/donmhico/create-block"
+		"url": "https://github.com/WebDevStudios/create-block/"
 	},
 	"engines": {
 		"node": ">=10",
