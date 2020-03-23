@@ -1,5 +1,5 @@
 {
-	"name": "@donmhico/create-wds-block",
+	"name": "@donmhico/create-block",
 	"version": "0.0.2",
 	"description": "Generates PHP, JS and CSS code for registering a block for a WordPress plugin.",
 	"author": "Michael Joseph Panaga <michael.panaga@webdevstudios.com> (https://twitter.com/_micmico)",
@@ -9,13 +9,13 @@
 		"block",
 		"scaffold"
 	],
-	"homepage": "https://github.com/donmhico/create-wds-block",
+	"homepage": "https://github.com/donmhico/create-block",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/donmhico/create-wds-block"
+		"url": "https://github.com/donmhico/create-block"
 	},
 	"bugs": {
-		"url": "https://github.com/donmhico/create-wds-block"
+		"url": "https://github.com/donmhico/create-block"
 	},
 	"engines": {
 		"node": ">=10",
@@ -26,7 +26,7 @@
 	],
 	"main": "index.js",
 	"bin": {
-		"create-wds-block": "./index.js"
+		"create-block": "./index.js"
 	},
 	"dependencies": {
 		"chalk": "^2.4.2",
@@ -43,6 +43,6 @@
 		"access": "public"
 	},
 	"scripts": {
-		"create-wds-block": "node index.js"
+		"create-block": "node index.js"
 	}
 }
