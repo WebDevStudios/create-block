@@ -9,13 +9,13 @@
 		"block",
 		"scaffold"
 	],
-	"homepage": "https://github.com/donmhico/create-block",
+	"homepage": "https://github.com/WebDevStudios/create-block/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/donmhico/create-block"
+		"url": "https://github.com/WebDevStudios/create-block/"
 	},
 	"bugs": {
-		"url": "https://github.com/donmhico/create-block"
+		"url": "https://github.com/WebDevStudios/create-block/"
 	},
 	"engines": {
 		"node": ">=10",
