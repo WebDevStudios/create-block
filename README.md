@@ -1,4 +1,4 @@
-# Create WDS Block
+# Create Block
 
 This is forked from [@wordpress/create-block](https://github.com/WordPress/gutenberg/blob/master/packages/create-block/README.md).
 
