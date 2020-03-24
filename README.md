@@ -1,6 +1,8 @@
 # Create Block
 
-Easily create a block for the WordPress block editor. Includes support for Sass, PostCSS, and WebDevStudios Coding Standards. This package also includes tools like [Webpack](https://webpack.js.org), [Babel](https://babeljs.io), and [ESLint](https://eslint.org).
+Easily scaffold a block for the WordPress block editor via CLI. 
+
+Uses [WDS Block Starter](https://github.com/WebDevStudios/wds-block-starter) and includes support for Sass, PostCSS, WebDevStudios Coding Standards, and build tools like [Webpack](https://webpack.js.org), [Babel](https://babeljs.io), and [ESLint](https://eslint.org).
 
 Visit the [Gutenberg handbook](https://developer.wordpress.org/block-editor/developers/block-api/block-registration/) to learn more about Block API.
 
