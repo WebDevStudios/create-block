@@ -18,7 +18,7 @@ The following command generates PHP, JS and CSS code for registering a block.
 
 You just need to provide the `Namespace/BlockName`.
   ```bash
-  $ npm init @webdevstudios/wds-block WebDevStudios/TodoList
+  $ npm init @webdevstudios/block WebDevStudios/TodoList
   $ cd todo-list
   $ npm start
   ```
