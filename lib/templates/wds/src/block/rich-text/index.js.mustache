@@ -1,37 +1,26 @@
 /**
-* BLOCK: Flash Headlines
-*
-* Register Flash Headlines
-*/
+ * REGISTER: Rich Text Block.
+ */
 import edit from './edit';
 import save from './save';
 
-/**
-* WordPress dependencies.
-*/
-const {
-    i18n: {
-        __,
-    },
-    blocks: {
-        registerBlockType,
-    },
-} = wp;
+import { __ } from '@wordpress/i18n';
+import { registerBlockType } from '@wordpress/blocks';
 
-registerBlockType( 'wdsbs/rich-text-demo', {
-    title: __( 'RichText Demo', 'wdsbs' ),
-    icon: 'edit',
-    category: 'common',
-    keywords: [
-        __( 'richtext', 'wdsbs' ),
-    ],
-    attributes: {
-        content: {
-            type: 'array',
-            source: 'children',
-            selector: 'p',
-        },
-    },
-    edit,
-    save,
+registerBlockType( '{{ namespaceKebabCase }}/rich-text-demo', {
+	title: __( 'RichText Block', '{{ textdomain }}' ),
+	icon: 'edit',
+	category: 'common',
+	keywords: [
+		__( 'richtext', '{{ textdomain }}' ),
+	],
+	attributes: {
+		content: {
+			type: 'array',
+			source: 'children',
+			selector: 'p',
+		},
+	},
+	edit,
+	save,
 } );
