@@ -1,5 +1,5 @@
 /**
- * REGISTER: Rich Text Block.
+ * REGISTER: {{ title }}.
  */
 import edit from './edit';
 import save from './save';
@@ -7,12 +7,13 @@ import save from './save';
 import { __ } from '@wordpress/i18n';
 import { registerBlockType } from '@wordpress/blocks';
 
-registerBlockType( '{{ namespaceKebabCase }}/rich-text-demo', {
-	title: __( 'RichText Block', '{{ textdomain }}' ),
+registerBlockType( '{{ namespaceKebabCase }}/{{ slug }}', {
+	title: __( '{{ title }}', '{{ textdomain }}' ),
 	icon: 'edit',
 	category: 'common',
 	keywords: [
-		__( 'richtext', '{{ textdomain }}' ),
+		__( '{{ namespace }}', '{{ textdomain }}' ),
+		__( '{{ slug }}', '{{ textdomain }}' ),
 	],
 	attributes: {
 		content: {

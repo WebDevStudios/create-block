@@ -76,7 +76,7 @@ function register_block() {
 	}
 
 	// Register block with WordPress.
-	register_block_type( '{{ namespaceKebabCase }}/rich-text-demo', array(
+	register_block_type( '{{ namespaceKebabCase }}/{{ slug }}', array(
 		'editor_script' => '{{ slug }}-editor-script',
 		'editor_style'  => '{{ slug }}-editor-style',
 		'style'         => '{{ slug }}-style',
