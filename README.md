@@ -2,9 +2,7 @@
 
 Easily scaffold a block for the WordPress block editor via CLI. 
 
-Uses [WDS Block Starter](https://github.com/WebDevStudios/wds-block-starter) and includes support for Sass, PostCSS, WebDevStudios Coding Standards, and build tools like [Webpack](https://webpack.js.org), [Babel](https://babeljs.io), and [ESLint](https://eslint.org).
-
-Visit the [Gutenberg handbook](https://developer.wordpress.org/block-editor/developers/block-api/block-registration/) to learn more about Block API.
+Uses [WDS Block Starter](https://github.com/WebDevStudios/wds-block-starter) and includes support for Sass, PostCSS, WebDevStudios Coding Standards, and build tools like [Webpack](https://webpack.js.org), [Babel](https://babeljs.io), and [ESLint](https://eslint.org). Visit the [Gutenberg handbook](https://developer.wordpress.org/block-editor/developers/block-api/block-registration/) to learn more about Block API.
 
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. Your Success is Our Mission."></a>
 
@@ -14,16 +12,16 @@ Visit the [Gutenberg handbook](https://developer.wordpress.org/block-editor/deve
 
 ## Usage
 
-The following command generates PHP, JS and CSS code for registering a block.
+The following command generates PHP, JS and CSS code for registering a block. You just need to provide the `Namespace/BlockName`.
 
-You just need to provide the `Namespace/BlockName`.
   ```bash
-  $ npm init @webdevstudios/block WebDevStudios/TodoList
-  $ cd todo-list
+  $ npx @webdevstudios/create-block WebDevStudios/TodoList
+  $ cd webdevstudios-todo-list
   $ npm start
   ```
 
 Options:
+
 ```bash
 -V, --version          output the version number
 -h, --help             output usage information
