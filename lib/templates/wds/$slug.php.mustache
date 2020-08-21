@@ -28,14 +28,14 @@ defined( 'ABSPATH' ) || exit;
  * Register the block with WordPress.
  *
  * @author {{ namespace }}
- * @since 0.0.1
+ * @since {{ version }}
  */
 function register_block() {
 
 	// Define our assets.
 	$editor_script   = 'build/index.js';
-	$editor_style    = 'build/editor.css';
-	$frontend_style  = 'build/style.css';
+	$editor_style    = 'build/index.css';
+	$frontend_style  = 'build/style-index.css';
 	$frontend_script = 'build/frontend.js';
 
 	// Verify we have an editor script.
